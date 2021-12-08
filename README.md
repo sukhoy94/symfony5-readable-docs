@@ -27,3 +27,10 @@ $this->client->request(
             ]
         );
 ```
+4. How to get 'real' service inside application test
+
+Example for getting jwt encoder service
+
+```
+$this->jwtEncoder = static::getContainer()->get('lexik_jwt_authentication.encoder.lcobucci');
+```
