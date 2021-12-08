@@ -20,8 +20,7 @@ Hardcoding the request URLs is a best practice for application tests. If the tes
 $this->client->request(
             'GET', 
             '/url/resource',
-            [
-            ],
+            [],
             [],
             [ // server params
                 'HTTP_AUTHORIZATION' => 'Bearer token'
