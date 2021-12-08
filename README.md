@@ -34,7 +34,11 @@ $this->client->request(
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ### How to get 'real' service inside application test
 
-Example for getting jwt encoder service
+#### Example for getting jwt encoder service
+
+Listing container services: 
+
+`php bin/console debug:container lcobucci`
 
 ```
 $this->jwtEncoder = static::getContainer()->get('lexik_jwt_authentication.encoder.lcobucci');
