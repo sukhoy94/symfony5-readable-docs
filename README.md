@@ -16,7 +16,7 @@ Hardcoding the request URLs is a best practice for application tests. If the tes
 
 3. How to set headers inside $this->client->request() method in application tests? 
 
-`
+```
 $this->client->request(
             'GET', 
             '/url/resource',
@@ -27,4 +27,4 @@ $this->client->request(
                 'HTTP_AUTHORIZATION' => 'Bearer token'
             ]
         );
-`
+```
