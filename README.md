@@ -1,4 +1,4 @@
-# symfony5-readable-docs
+# Clear documentation
 
 1. How to get list of available routes?
 
