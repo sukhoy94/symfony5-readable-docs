@@ -43,3 +43,7 @@ Listing container services:
 ```
 $this->jwtEncoder = static::getContainer()->get('lexik_jwt_authentication.encoder.lcobucci');
 ```
+---------------------------------------------------------------------------------------------------------------------------------------------------
+### How to get rid of '_test' suffix in test env
+
+@see config/test/doctrine.yaml
